@@ -3,9 +3,13 @@ page_type: sample
 languages:
 - tsql
 - sql
-- 
+- python
+- scala
 products:
 - azure
+- azure-databricks
+- azure-blob-storage
+- azure-key-vault
 - azure-sql-database
 description: "Fast Data Loading in Azure SQL DB using Azure Databricks"
 ---
