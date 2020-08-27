@@ -11,6 +11,7 @@ products:
 - azure-key-vault
 - azure-sql-database
 description: "Fast Data Loading in Azure SQL DB using Azure Databricks"
+urlFragment: "azure-sql-db-databricks"
 ---
 
 # Fast Data Loading in Azure SQL DB using Azure Databricks
