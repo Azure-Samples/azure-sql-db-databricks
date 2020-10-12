@@ -50,6 +50,13 @@ the samples will guide you through the most common scenarios
 
 all samples will also show how to correctly load table if there are already indexes or if you want to use a column-store in Azure SQL.
 
+### Bonus Samples: Reading data as fast as possible
+
+Though this repo focuses on writing data as fast as possible into Azure SQL, I also understand that you may also want to know how to do the opposite: how the read data as fast as possible from Azure SQL into Apache Spark / Azure Databricks? For this reason in the folder `notebooks/read-from-azure-sql` you will find two samples that shows how to do exactly that:
+
+- [Fast Reading from Azure SQ](./notebooks/read-from-azure-sql/fast-read.ipynb)
+- [Pushing queries to Azure SQL](./notebooks/read-from-azurel-sql/push-down-queries.ipynb)
+
 ## Contributing
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
