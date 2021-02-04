@@ -45,7 +45,7 @@ Once the Parquet file is available,
 the samples will guide you through the most common scenarios
 
 - [Loading a non-partitioned table](./notebooks/01-load-into-single-table.ipynb)
-- [Loading a partitioned table](./notebooks/01-load-into-partitioned-table.ipynb)
+- [Loading a partitioned table](./notebooks/02-load-into-partitioned-table.ipynb)
 - [Loading a partitioned table via switch-in](./notebooks/03a-parallel-switch-in-load-into-partitioned-table-many.ipynb)
 
 all samples will also show how to correctly load table if there are already indexes or if you want to use a column-store in Azure SQL.
